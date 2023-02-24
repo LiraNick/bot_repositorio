@@ -1,5 +1,3 @@
-
-
 import webbrowser
 import pyautogui as py
 import time
@@ -172,9 +170,5 @@ py.hotkey('enter')
 
 #comando para subir o repositorio e finalizar a automatizacao
 time.sleep(3)
-py.write(''git push'', interval=0.1)bot_repositorio
+py.write(''git push'', interval=0.1)
 py.hotkey('enter')
-
-
-            
-                    ""
