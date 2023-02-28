@@ -60,7 +60,7 @@ py.write('''automacao_python''', interval=0.1)
 #descritivo do repositorio
 time.sleep(2)
 py.click(x=790, y=433)
-py.write(''criacao de um repositorio e commit dele com uma automatizacao com um bot '', interval=0.1)
+py.write('''criacao de um repositorio e commit dele com uma automatizacao com um bot ''', interval=0.1)
 
 #funcao de usar o scroll do mouse para descer a tela
 py.scroll(-750) 
