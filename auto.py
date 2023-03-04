@@ -1,5 +1,3 @@
-
-
 import webbrowser
 import pyautogui as py
 import time
@@ -31,12 +29,12 @@ time.sleep(2)
 
 #digitalizando email
 py.click(x=846, y=285)
-py.write(''EMAIL'', interval=0.1)
+py.write('''EMAIL''', interval=0.1)
 time.sleep(1)
 
 #digitalizando senha
 py.click(x=807, y=367)
-py.write(''SENHA'', interval=0.1)
+py.write('''SENHA''', interval=0.1)
 
 #apertando botao de login
 time.sleep(1)
@@ -57,12 +55,12 @@ py.click(x=1359, y=236)
 #criancao do repositorio
 time.sleep(4)
 py.click(x=740, y=330)
-py.write(''automacao_python'', interval=0.1)
+py.write('''automacao_python''', interval=0.1)
 
 #descritivo do repositorio
 time.sleep(2)
 py.click(x=790, y=433)
-py.write(''criacao de um repositorio e commit dele com uma automatizacao com um bot '', interval=0.1)
+py.write('''criacao de um repositorio e commit dele com uma automatizacao com um bot ''', interval=0.1)
 
 #funcao de usar o scroll do mouse para descer a tela
 py.scroll(-750) 
@@ -75,13 +73,13 @@ py.click(x=446, y=368)
 time.sleep(1)
 py.click(x=519, y=478)
 time.sleep(2)
-py.write(''python'', interval=0.1)
+py.write('''python''', interval=0.1)
 py.doubleClick(x=658, y=595)
 
 #add a lincensa mit (ou uma de sua preferencia)
 time.sleep(2)
 py.click(x=512, y=573)
-py.write(''MIT'', interval=0.1)
+py.write('''MIT''', interval=0.1)
 time.sleep(2)
 py.click(x=559, y=694)
 
@@ -103,18 +101,18 @@ py.doubleClick(x=778, y=882)
 
 #comando para acessar a raiz do user
 time.sleep(2)
-py.write(''cd'', interval=0.1)
+py.write('''cd''', interval=0.1)
 py.hotkey('enter')
 
 #comando para acessar os documentos (deixei metade da palavra como demonstracao da tecla tab no cmd)
 time.sleep(2)
-py.write(''cd docu'', interval=0.1)
+py.write('''cd docu''', interval=0.1)
 py.hotkey('tab')
 py.hotkey('enter')
 
 #comando para clonar o repositorio
 time.sleep(4)
-py.write(''git clone '', interval=0.1)
+py.write('''git clone ''', interval=0.1)
 
 #comando para colar o https do repositorio
 time.sleep(1)
@@ -124,13 +122,13 @@ py.hotkey('enter')
 
 #comando para acessar o repositorio pelas pastas
 time.sleep(4)
-py.write(''cd automacao_python'', interval=0.1)
+py.write('''cd automacao_python''', interval=0.1)
 py.hotkey('tab')
 py.hotkey('enter')
 
 #comando para abrir o repositorio no vscode
 time.sleep(2)
-py.write(''code .'', interval=0.1)
+py.write('''code .''', interval=0.1)
 py.hotkey('enter')
 
 #clique para maximar o vscode
@@ -143,12 +141,12 @@ py.click(x=91, y=65)
 
 #nome do arquivo e enter para acessar o arquivo dentro do vscode
 time.sleep(4)
-py.write(''auto.py'', interval=0.1)
+py.write('''auto.py''', interval=0.1)
 py.hotkey('enter')
 
 #criacao de uma variavel para nao fica arquivo em branco
 time.sleep(4)
-py.write(''deucerto = "funcionando"'', interval=0.1)
+py.write('''deucerto = "funcionando"''', interval=0.1)
 
 #clique para abrir o cmd novamente
 time.sleep(3)
@@ -156,25 +154,21 @@ py.click(x=783, y=889)
 
 #comando para add as alteracoes do repositorio
 time.sleep(3)
-py.write(''git add .'', interval=0.1)
+py.write('''git add .''', interval=0.1)
 py.hotkey('enter')
 
 #comando para mostrar os status das alteracoes do repositorio
 time.sleep(3)
-py.write(''git status'', interval=0.1)
+py.write('''git status''', interval=0.1)
 py.hotkey('enter')
 
 #comando para commitar as alteracoes do repositorio
 time.sleep(3) 
-py.write(''git commit -m "finalizado"'', interval=0.1)
+py.write('''git commit -m "finalizado"''', interval=0.1)
 time.sleep(3)
 py.hotkey('enter')
 
 #comando para subir o repositorio e finalizar a automatizacao
 time.sleep(3)
-py.write(''git push'', interval=0.1)bot_repositorio
+py.write('''git push''', interval=0.1)
 py.hotkey('enter')
-
-
-            
-                    ""
